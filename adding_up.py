@@ -7,4 +7,3 @@ while user_reply == "y":
  user_reply = input("Continue?")
 print("The total result is: ", total)
 print("Thank you for using this program!")
-
