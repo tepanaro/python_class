@@ -20,3 +20,11 @@ while j <= i2 - inc:
     j = i1 + k * inc
     k = k + 1
     print(j, end=" ")
+
+print("\ne:")
+k = 0
+j = 0
+while j > i1 + inc:
+    j = i2 + k * inc * -1
+    k = k + 1
+    print(j, end=" ")
