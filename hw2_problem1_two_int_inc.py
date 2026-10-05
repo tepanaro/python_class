@@ -7,7 +7,16 @@ while inc <= 0:
     inc = int(input("The increment must be greater than 0. Please, insert a greater integer 1 "))
 k = 0
 j = 0
+print("\nc:")
 while j < i2 - inc:
+    j = i1 + k * inc
+    k = k + 1
+    print(j, end=" ")
+
+print("\nd:")
+k = 0
+j = 0
+while j <= i2 - inc:
     j = i1 + k * inc
     k = k + 1
     print(j, end=" ")
