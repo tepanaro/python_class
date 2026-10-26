@@ -16,7 +16,7 @@ while i < len(operation_list):
             result = ""
         else:
             result = result + operation_list[i]
-    elif operation_sign == "":
+    elif operation_sign == "" and operation_list[i] != " ":
         operation_sign = operation_list[i]
     elif operand2 == "":
             if operation_list[i] != " ":
